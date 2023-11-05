@@ -1,0 +1,39 @@
+{
+  "name": "bot-template-telegraf",
+  "version": "1.0.0",
+  "description": "Starter template for Telegraf.js",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "keywords": [
+    "template"
+  ],
+  "nodemonConfig": {
+    "ignore": [
+      "sessions.json"
+    ]
+  },
+  "author": "Samandar Turdiev",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "base-64": "^1.0.0",
+    "dotenv": "^16.0.1",
+    "html-pdf-node": "^1.0.8",
+    "html-to-pdf": "^0.1.11",
+    "knex": "^2.1.0",
+    "moment": "^2.29.4",
+    "mysql2": "^2.3.3",
+    "node-html-parser": "^6.1.1",
+    "puppeteer": "^19.2.2",
+    "telegraf": "^4.8.5",
+    "telegraf-i18n": "^6.6.0",
+    "telegraf-session-local": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

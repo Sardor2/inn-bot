@@ -1,0 +1,152 @@
+{
+    "welcome": "👋 Welcome to the bot",
+    "goBack": "🔙 Back",
+    "goHome": "🏠 Home menu",
+    "pay": "💳 Pay",
+    "selectOrder": "⏬ Select a booking",
+    "registration": {
+        "title": "<b>❗️ You need to register to use the bot</b>",
+        "success": "<b>🎉 Congratulations, you have successfully registered on the bot!</b>"
+    },
+    "language": {
+        "title": "🇷🇺 Пожалуйста, выберите язык\n🇺🇿 Iltimos, tilni tanlang\n🇬🇧 Please choose a language",
+        "success": "✅ Language is chosen"
+    },
+    "phoneNumber": {
+        "title": "📞 Enter your phone number or share using the button below. <b>For example:</b> <i>+9989xxxxxxxx</i>",
+        "send": "📞 Share phone number",
+        "invalid": "❌ The phone number was entered incorrectly. Please try again"
+    },
+    "agree": {
+        "title": "<a href=\"https://my.gov.uz/oz/pages/offer_e_pay\">📄 Public offer</a>",
+        "agree": "✅ I agree"
+    },
+    "removeOrder": "❌ Cancel booking",
+    "removeOrderAnswer": "✅ Booking was cancelled",
+    "home": {
+        "hotels": "🏨 Hotels",
+        "orders": "🎟️ My bookings",
+        "help": "ℹ️ How does the bot work?",
+        "settings": "⚙️ Settings",
+        "corporate": "🏢 Corporate customers",
+        "hostels": "🛏️ Hostels",
+        "sanatoriums": "🏥 Sanatoriums",
+        "dachas": "🏖 Dachas"
+    },
+    "hotels": {
+        "select": "⏬ Select a hotel",
+        "viewPhotos": "🖼 View all photos",
+        "viewComments": "💬 View feedbacks (${count})",
+        "markup": "<b>${title}</b>\n\n<b>💲 Price (per night):</b> ${price} sum\n<b>🏖 Comfortables:</b> ${comfortables}\n<b>📍 Address:</b> <a href=\"${address_url}\">🔗 ${address}</a>",
+        "title": "📍 Choose a region or share location",
+        "location": "📍 Share location",
+        "locationButton": "⏬ Share your location using the button below",
+        "region": "Select region",
+        "chosenDate": "📆 You have chosen from <b>${startDate}</b> to <b>${endDate}</b> <i><u>(${days} night(s))</u></i>",
+        "chooseRegion": "⏬ Choose region",
+        "hotel": "Hotel",
+        "noItems": "ℹ Only hotels available at the moment",
+        "hostel": "Hostel",
+        "sanatorium": "Sanatorium",
+        "dacha": "Dacha",
+        "selectType": "⏬ Select room type\n\n<b>1️⃣ Single:</b> ${singlePrice} sum\n<b>2️⃣ Double:</b> ${doublePrice} sum\n<b> 3️⃣ Triple:</b> ${triplePrice} sum\n<b>👨‍👩‍👧‍👧 Family:</b> ${familyPrice} sum\n<b>💎 Deluxe:</b> ${deluxePrice} sum",
+        "read": "📖 More",
+        "feedbacks": "💬 Reviews (33)",
+        "next": "➡️ Next",
+        "selectCount": "⏬ Select the number of 🚪 rooms, 👨👩‍🦰 adults and 👦👧 children",
+        "selectPlaceType": "⏬ Select place type",
+        "chooseRating": "⏬ Choose rating",
+        "searchResults": "🔎 Found ${hotelsCount} hotels for\nregion <b>${region}</b> and rating ${rating}",
+        "order": "✅ Book",
+        "chooseStartDate": "🗓 Choose your arrival date",
+        "chooseEndDate": "🗓 Choose your departure date",
+        "choosePayment": "⏬ Choose payment type",
+        "cash": "💵 Cash",
+        "payme": "🌐Payme",
+        "showNext": "🔎 Show next ${count} hotels",
+        "showNextButton": "⏭ Next",
+        "invalidDate": "❌ You selected an invalid date",
+        "typeCode": "⏬ Enter your code",
+        "noHotels": "<b>❌ No hotel for selected region and rating. You can search with other options</b>",
+        "noRooms": "❌ There are no rooms available for your period. Please try a different room type or change your arrival and check-departure dates",
+        "single": "1️⃣ Single",
+        "double": "2️⃣ Double",
+        "triple": "3️⃣ Triple",
+        "family": "👨‍👩‍👧‍👧 Family",
+        "deluxe": "💎 Deluxe"
+    },
+    "regions": {
+        "1": "Andijan",
+        "2": "Bukhara",
+        "3": "Fergana",
+        "4": "Jizzakh",
+        "5": "Khorazm",
+        "6": "Namangan",
+        "7": "Navoi",
+        "8": "Kashkadarya",
+        "9": "Samarkand",
+        "10": "Syrdarya",
+        "11": "Surkhandarya",
+        "12": "Tashkent",
+        "13": "Tashkent city",
+        "14": "Republic of Karakalpakstan"
+    },
+    "viewOnWeb": "📍 View on Google Maps",
+    "roomsCount": "🚪 Number of rooms",
+    "adultsCount": "👨👩‍🦰 Number of adults",
+    "childrenCount": "👦👧 Number of children",
+    "invoice": "#reservation #${reservationId}\n🏨 Hotel <b>${hotelTitle}</b>\n\n<b>📅 Arrival date:</b> ${startDate}\n<b >📅 Departure date:</b> ${endDate}\n\n<b>🚪 Number of rooms:</b> ${roomsCount} <i>(${roomType})</i>\n<b>👨👩‍🦰 Number of adults:</b> ${adultsCount}\n<b>👦👧 Number of children:</b> ${childrenCount}\n\n<b>💳 Payment type:</b> ${pay}\n<b>💲 Total:</b> <i>(${roomPrice} ✖️ ${roomsCount}) ✖️ ${daysCount} =</i> <b>${amount}</b> sum",
+    "invoicePDF": "<b>📄 Invoice</b>",
+    "calendar": {
+        "months": {
+            "1": {
+                "title": "January",
+                "days": "31"
+            },
+            "2": {
+                "title": "February",
+                "days": "28"
+            },
+            "3": {
+                "title": "March",
+                "days": "31"
+            },
+            "4": {
+                "title": "April",
+                "days": "30"
+            },
+            "5": {
+                "title": "May",
+                "days": "31"
+            },
+            "6": {
+                "title": "June",
+                "days": "30"
+            },
+            "7": {
+                "title": "July",
+                "days": "31"
+            },
+            "8": {
+                "title": "August",
+                "days": "31"
+            },
+            "9": {
+                "title": "September",
+                "days": "30"
+            },
+            "10": {
+                "title": "October",
+                "days": "31"
+            },
+            "11": {
+                "title": "November",
+                "days": "30"
+            },
+            "12": {
+                "title": "December",
+                "days": "31"
+            }
+        }
+    }
+}

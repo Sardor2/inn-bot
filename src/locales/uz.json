@@ -1,0 +1,153 @@
+{
+    "welcome": "👋 Botga xush kelibsiz",
+    "goBack": "🔙 Orqaga",
+    "pay": "💳 To'lash",
+    "goHome": "🏠 Bosh menyu",
+    "selectOrder": "⏬ Buyurtmani tanlang",
+    "registration": {
+        "title": "<b>❗️ Botdan foydalanish uchun ro'yxatdan o'tishingiz zarur</b>",
+        "success": "<b>🎉 Tabriklaymiz, siz botdan muvaffaqiyatli tarzda ro'yxatdan o'tdingiz!</b>"
+    },
+    "language": {
+        "title": "🇷🇺 Пожалуйста, выберите язык\n🇺🇿 Iltimos, tilni tanlang\n🇬🇧 Please choose a language",
+        "success": "✅ Til tanlandi"
+    },
+    "phoneNumber": {
+        "title": "📞 Telefon raqamingizni kiriting yoki pastdagi tugma orqali ulashing. <b>Masalan:</b> <i>+9989xxxxxxxx</i>",
+        "send": "📞 Telefon raqamni ulashish",
+        "invalid": "❌ Telefon raqam xato kiritildi. Iltimos, qayta urinib ko'ring"
+    },
+    "agree": {
+        "title": "<a href=\"https://my.gov.uz/oz/pages/offer_e_pay\">📄 Ommaviy oferta</a>",
+        "agree": "✅ Roziman"
+    },
+    "removeOrder": "❌ Buyurtmani bekor qilish",
+    "removeOrderAnswer": "✅ Buyurtma bekor qilindi",
+    "home": {
+        "hotels": "🏨 Mehmonxonalar",
+        "orders": "🎟️ Mening buyurtmalarim",
+        "help": "ℹ️ Bot qanday ishlaydi?",
+        "settings": "⚙️ Sozlamalar",
+        "corporate": "🏢 Korporativ mijozlar",
+        "hostels": "🛏️ Hostellar",
+        "sanatoriums": "🏥 Sanatoriyalar",
+        "dachas": "🏖 Dachalar"
+    },
+    "hotels": {
+        "select": "⏬ Mehmonxonani tanlang",
+        "orderView": " Buyurtma #${id}\n\n<b>${hotel_title}</b>\n\n<b>📅 Kelish sanasi:</b> ${start_date}\n<b>📅 Ketish sanasi:</b> ${end_date}\n<b>Тип местоположения:</b> ${hotel_type}\n<b>📍 Адрес:</b> ${hotel_address}\n<b>🏖 Комфорт:</b> ${hotel_comfortables}\n<b>🖼 Фото:</b> <a href=\"${hotel_photos}\">🔗 Просмотреть</a>\n<b>Рейтинг места:</b> ${hotel_rating}\n<b>Количество комнат:</b> ${num_rooms}\n<b>Количество взрослых:</b> ${num_adults}\n<b>Количество детей:</b> ${num_children}\n<b>Тип комнаты:</b> ${room_type}\n<b>💳 Тип оплаты:</b> ${pay_type}\n<b>💲 Цена:</b> ${price} so'm\n\n<b>Статус:</b> ${status}",
+        "viewPhotos": "🖼 Barcha fotosuratlarni ko'rish",
+        "viewComments": "💬 Fikr-mulohazalarni ko'rish (${count})",
+        "markup": "<b>${title}</b>\n\n<b>💲 Narxi (bir kechaga):</b> ${price} so'm\n<b>🏖 Qulayliklar:</b> ${comfortables}\n<b>📍 Manzil:</b> <a href=\"${address_url}\">🔗 ${address}</a>",
+        "title": "📍 Manzilni tanlang yoki joylashuvni ulashing",
+        "location": "📍 Joylashuvni ulashish",
+        "locationButton": "⏬ Pastdagi tugma orqali joylashuvingizni ulashing",
+        "region": "Hududni tanlash",
+        "chosenDate": "📆 Siz <b>${startDate}</b>dan <b>${endDate}</b>gacha tanladingiz <i><u>(${days} kecha)</u></i>",
+        "chooseRegion": "⏬ Hududni tanlang",
+        "hotel": "Mehmonxona",
+        "noItems": "ℹ Hozirgi vaqtda faqat mehmonxonalar mavjud",
+        "hostel": "Yotoqxona",
+        "sanatorium": "Sanatoriya",
+        "dacha": "Dacha",
+        "selectType": "⏬ Xona turini tanlang\n\n<b>1️⃣ Bir kishilik:</b> ${singlePrice} so'm\n<b>2️⃣ Ikki kishilik:</b> ${doublePrice} so'm\n<b>3️⃣ Uch kishilik:</b> ${triplePrice} so'm\n<b>👨‍👩‍👧‍👧 Oilaviy:</b> ${familyPrice} so'm\n<b>💎 Deluxe:</b> ${deluxePrice} so'm",
+        "read": "📖 Yana",
+        "feedbacks": "💬 Fikr-mulohazalar (33)",
+        "next": "➡️ Keyingisi",
+        "selectCount": "⏬ 🚪 Xonalar, 👨👩‍🦰 kattalar va 👦👧 bolalar sonini tanlang",
+        "selectPlaceType": "⏬ Joy turini tanlang",
+        "chooseRating": "⏬ Reytingni tanlang",
+        "searchResults": "🔎 <b>${region}</b> hududi va ${rating} reytingi\nuchun ${hotelsCount} ta mehmonxona topildi",
+        "order": " ✅ Buyurtma qilish",
+        "chooseStartDate": "🗓 Kelish sanasini tanlang",
+        "chooseEndDate": "🗓 Ketish sanasini tanlang",
+        "choosePayment": "⏬ To'lov turini tanlang",
+        "cash": "💵 Naqd",
+        "payme": "🌐 Payme",
+        "showNext": "🔎 Keyingi ${count} ta mehmonxonani ko'rsatish",
+        "showNextButton": "⏭ Keyingi",
+        "invalidDate": "❌ Noto'g'ri sana tanlandi",
+        "typeCode": "⏬ Kodni kiriting",
+        "noHotels": "<b>❌ Tanlangan hudud va reyting uchun mehmonxonalar yo'q. Siz boshqa variantlar bilan qayta qidirishingiz mumkin</b>",
+        "noRooms": "❌ Siz tanlagan sanalar uchun bo'sh xonalar yo'q. Iltimos, boshqa xona turini tanlang yoki sanalarni o'zgartiring",
+        "single": "1️⃣ Bir kishilik",
+        "double": "2️⃣ Ikki kishilik",
+        "triple": "3️⃣ Uch kishilik",
+        "family": "👨‍👩‍👧‍👧 Oilaviy",
+        "deluxe": "💎 Deluxe"
+    },
+    "regions": {
+        "1": "Andijon",
+        "2": "Buxoro",
+        "3": "Farg'ona",
+        "4": "Jizzax",
+        "5": "Xorazm",
+        "6": "Namangan",
+        "7": "Navoiy",
+        "8": "Qashqadaryo",
+        "9": "Samarqand",
+        "10": "Sirdaryo",
+        "11": "Surxondaryo",
+        "12": "Toshkent",
+        "13": "Toshkent shahri",
+        "14": "Qoraqalpog'iston Respublikasi"
+    },
+    "viewOnWeb": "📍 Google Maps'da ochish",
+    "roomsCount": "🚪 Xonalar soni",
+    "adultsCount": "👨👩‍🦰 Kattalar soni",
+    "childrenCount": "👦👧 Bolalar soni",
+    "invoice": "#reservation #${reservationId}\n🏨 <b>${hotelTitle}</b> mehmonxonasi\n\n<b>📅 Kelish sanasi:</b> ${startDate}\n<b>📅 Ketish sanasi:</b> ${endDate}\n\n<b>🚪 Xonalar soni:</b> ${roomsCount} <i>(${roomType})</i>\n<b>👨👩‍🦰 Kattalar soni:</b> ${adultsCount}\n<b>👦👧 Bolalar soni:</b> ${childrenCount}\n\n<b>💳 To'lov turi:</b> ${pay}\n<b>💲 Jami:</b> <i>(${roomPrice} ✖️ ${roomsCount}) ✖️ ${daysCount} =</i> <b>${amount}</b> so'm",
+    "invoicePDF": "<b>📄 Invoys</b>",
+    "calendar": {
+        "months": {
+            "1": {
+                "title": "Yanvar",
+                "days": "31"
+            },
+            "2": {
+                "title": "Fevral",
+                "days": "28"
+            },
+            "3": {
+                "title": "Mart",
+                "days": "31"
+            },
+            "4": {
+                "title": "Aprel",
+                "days": "30"
+            },
+            "5": {
+                "title": "May",
+                "days": "31"
+            },
+            "6": {
+                "title": "Iyun",
+                "days": "30"
+            },
+            "7": {
+                "title": "Iyul",
+                "days": "31"
+            },
+            "8": {
+                "title": "Avgust",
+                "days": "31"
+            },
+            "9": {
+                "title": "Sentyabr",
+                "days": "30"
+            },
+            "10": {
+                "title": "Oktyabr",
+                "days": "31"
+            },
+            "11": {
+                "title": "Noyabr",
+                "days": "30"
+            },
+            "12": {
+                "title": "Dekabr",
+                "days": "31"
+            }
+        }
+    }
+}
